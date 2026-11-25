@@ -21,3 +21,13 @@ WORKFLOW_FILE = "checkin.yml"
 REF = "main"
 WINDOW_START = "07:05"
 WINDOW_END = "07:15"
+
+# Cloudflare Workers 日志
+[observability]
+enabled = true
+
+[observability.logs]
+enabled = true
+invocation_logs = true
+head_sampling_rate = 1
+redact_query_string = true

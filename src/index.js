@@ -6,8 +6,8 @@
 const API = "https://api.github.com";
 const SCHEDULER_NAME = "fgo-daily-checkin";
 
-const DEFAULT_WINDOW_START = "01:05";
-const DEFAULT_WINDOW_END = "01:15";
+const DEFAULT_WINDOW_START = "07:05";
+const DEFAULT_WINDOW_END = "07:15";
 
 const MINUTE_MS = 60 * 1000;
 const DAY_MS = 24 * 60 * MINUTE_MS;

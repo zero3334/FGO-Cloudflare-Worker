@@ -1,4 +1,4 @@
-name = "fgo-daily-trigger"
+name = "fgo-cloudflare-worker"
 main = "src/index.js"
 compatibility_date = "2025-03-01"
 
@@ -19,5 +19,5 @@ REPO_OWNER = "zero3334"
 REPO_NAME = "FGO-Bilibili-DailyBonus"
 WORKFLOW_FILE = "checkin.yml"
 REF = "main"
-WINDOW_START = "21:30"
-WINDOW_END = "21:40"
+WINDOW_START = "22:15"
+WINDOW_END = "22:25"

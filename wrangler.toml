@@ -1,0 +1,23 @@
+name = "fgo-daily-trigger"
+main = "src/index.js"
+compatibility_date = "2025-03-01"
+
+# 每小时确保 Durable Object alarm 存在；Worker Cron 不直接触发签到。
+[triggers]
+crons = ["0 * * * *"]
+
+[[durable_objects.bindings]]
+name = "CHECKIN_SCHEDULER"
+class_name = "CheckinScheduler"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["CheckinScheduler"]
+
+[vars]
+REPO_OWNER = "zero3334"
+REPO_NAME = "FGO-Bilibili-DailyBonus"
+WORKFLOW_FILE = "checkin.yml"
+REF = "main"
+WINDOW_START = "07:00"
+WINDOW_END = "07:10"

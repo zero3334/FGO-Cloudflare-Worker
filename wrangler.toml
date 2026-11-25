@@ -17,6 +17,7 @@ new_sqlite_classes = ["CheckinScheduler"]
 [vars]
 REPO_OWNER = "zero3334"
 REPO_NAME = "FGO-Bilibili-DailyBonus"
+TRIGGER_KEY = "fgo_Pnmz3vCAfizZ"
 WORKFLOW_FILE = "checkin.yml"
 REF = "main"
 WINDOW_START = "00:00"

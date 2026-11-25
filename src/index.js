@@ -4,8 +4,8 @@
 
 const API = "https://api.github.com";
 const SCHEDULER_NAME = "fgo-cloudflare-worker";
-const DEFAULT_WINDOW_START = "23:20";
-const DEFAULT_WINDOW_END = "23:30";
+const DEFAULT_WINDOW_START = "00:00";
+const DEFAULT_WINDOW_END = "00:15";
 const MINUTE_MS = 60 * 1000;
 const SHANGHAI_OFFSET_MS = 8 * 60 * MINUTE_MS;
 

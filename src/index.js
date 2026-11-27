@@ -1,10 +1,9 @@
-
 // FGO 签到 Cloudflare Worker + Durable Object
 // 北京时间每天随机执行一次
 // Cron 只负责检查和修复 Alarm，不直接触发签到
 
 const API = "https://api.github.com";
-const SCHEDULER_NAME = "fgo-daily-checkin";
+const SCHEDULER_NAME = "fgo-cloudflare-worker";
 
 const DEFAULT_WINDOW_START = "07:05";
 const DEFAULT_WINDOW_END = "07:15";

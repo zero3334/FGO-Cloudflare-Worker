@@ -19,8 +19,8 @@ REPO_OWNER = "zero3334"
 REPO_NAME = "FGO-Bilibili-DailyBonus"
 WORKFLOW_FILE = "checkin.yml"
 REF = "main"
-WINDOW_START = "07:05"
-WINDOW_END = "07:15"
+WINDOW_START = "19:35"
+WINDOW_END = "19:45"
 
 # Cloudflare Workers 日志
 [observability]

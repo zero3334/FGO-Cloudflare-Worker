@@ -7,7 +7,7 @@
 // 否则任何一次重试都会再发一次 workflow_dispatch —— 这就是「一天触发两次」的来源。
 
 const API = "https://api.github.com";
-const SCHEDULER_NAME = "fgo-daily-checkin";
+const SCHEDULER_NAME = "fgo-cloudflare-worker";
 
 const DEFAULT_WINDOW_START = "07:05";
 const DEFAULT_WINDOW_END = "07:15";
